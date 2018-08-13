@@ -9,7 +9,7 @@ RUN \
   apt-get update && \
   apt-get -y upgrade && \
   apt-get clean && \
-  apt-get install -y git nano openssh-server
+  apt-get install -y git nano openssh-server mailutils
 
 # Set environment variables.
 ENV HOME /root
