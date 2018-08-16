@@ -1,6 +1,6 @@
 FROM debian
 
-MAINTAINER dtelga <dtelega@student.student.ua>
+MAINTAINER dtelega <dtelega@student.unit.ua>
 
 ENV TS3SERVER_LICENSE=accept
 

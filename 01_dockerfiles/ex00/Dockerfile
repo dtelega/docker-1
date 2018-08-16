@@ -1,6 +1,6 @@
 FROM alpine
 
-MAINTAINER dteleg1a <dtelega@student.unit.ua>
+MAINTAINER dtelega <dtelega@student.unit.ua>
 
 RUN 	apk update && \
 	apk upgrade && \
