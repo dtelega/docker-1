@@ -2,7 +2,7 @@ FROM ruby
 
 MAINTAINER dtelega <dtelega@student.unit.ua>
 
-RUN apt-get update -y && apt-get install -y build-essential libpq-dev nodejs sqlite3
+RUN apt-get update -yq && apt-get install -yq build-essential libpq-dev nodejs sqlite3
 
 ENV RAILS_ENV=production
 
